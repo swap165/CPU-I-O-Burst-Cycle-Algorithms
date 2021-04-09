@@ -1,5 +1,10 @@
 # CPU-and-I-O-Scheduler-Algorithms
 
+In this project, I have designed and implemented a system for simulating the deterministic modelling for CPU Scheduling. There are 6 different scheduling algorithms that I have implemented and the Pre-emptive algorithms also include I/O device scheduler for multiple devices while also handling the case for piplelined processes. I managed to do this by checking the certain condition for priority/time left for completion for each burst within a process after every single clock cycle so as to choose the best possible candidate.
+
+I have included methods to calculate the waiting time and the turnaround time for each process and thus calculate the average waiting time and turnaround time from that. I have also included a method whih prints out the gantt-chart representing the whole cycle for the processes and their bursts in order to get a visual representation of what goes down. Further details on how to execute the algorithms are explained below.
+
+
 How to Execute and setup custom process'
 ------------------------------------------
 Note 1: How to run and what everything means
